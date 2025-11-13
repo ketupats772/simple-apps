@@ -1,7 +1,7 @@
 services:
   simple-apps:
     container_name: ct-simpleapps-prod
-    image: ketupats772/img-simpleapps
+    image: ketupats772/img-simpleapps:v1-stable
     ports:
     - "10000:3000"
     restart: always
